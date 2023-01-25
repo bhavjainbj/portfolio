@@ -78,12 +78,29 @@ nav.sticky .menu a:hover{
 }
 .navbar .media-icons a{
   color: #4070f4;
-  font-size: 18px;
+  font-size: 38px;
   margin: 0 6px;
 }
 nav.sticky .media-icons a{
   color: #FFF;
 }
+
+.media-icons a{
+  color: #4070f4;
+  font-size: 38px;
+  margin: 0 6px;
+}
+.media-icons a{
+  color: #4070f4;
+}
+
+box-icon{
+  color: #4070f4;
+  font-size: 38px;
+  margin: 0 6px;
+}
+
+
 
 /* Side Navigation Menu Button CSS */
 nav .menu-btn,
@@ -220,6 +237,12 @@ section .title span::after{
   box-shadow: 0 1px 2px rgba(0,0,0,0.15);
   border-radius: 70px;
 }
+
+.about .left :hover{
+  transform: scale(1.1);
+  
+}
+
 .about-details .right{
   width: 55%;
 }
@@ -399,6 +422,28 @@ footer .text span a:hover{
   box-shadow: rgba(0, 0, 0, 0.15);
   display: none;
 }
+
+.button{
+  background-color: #4070f4;
+  color: white;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.home .button{
+  width: 120px;
+  height: 40px;
+  align-items: center;
+  text-align: center;
+}
+
+.button a{
+  color: white;
+  font-weight: 300;
+}
+
+
 
 /* Responsive Media Query */
 @media (max-width: 1190px) {
